@@ -21,7 +21,7 @@ public class ProcessoSeletivo {
 					System.out.println("Contato realizado com sucesso.");
 			}while(continuarTentando && tentativasRealizadas<3);
 				if(atendeu) 
-					System.out.println("Conseguimos contato com " + candidato+ " na " + tentativasRealizadas + "tentativa.");
+					System.out.println("Conseguimos contato com " + candidato + " na " + tentativasRealizadas + "tentativa.");
 				else 
 					System.out.println("Não conseguimos contato com " + candidato + ", número maximo de tentativas "+ tentativasRealizadas + "realizada ");
 		}
