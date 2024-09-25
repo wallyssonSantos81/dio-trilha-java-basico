@@ -1,9 +1,14 @@
-package streamApi;
+package supplierApi;
 
 import java.util.List;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+/**
+ * Representa uma operação que não aceita nenhum argumento  e retorna um resultado do tipo "T" .
+ * É comunente usada para criar ou formecer novos objetos de um determinado tipo.
+ */
 
 public class SupplierExample {
 
