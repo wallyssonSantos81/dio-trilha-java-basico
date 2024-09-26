@@ -13,7 +13,7 @@ import java.util.function.Consumer;
 public class ConsumerExample {
     public static void main(String[] args) throws Exception {
         //Criar uma lista de números inteiros.
-        List<Integer>numeros = Arrays.asList(1,2,3,4,5);
+        List<Integer>numeros = Arrays.asList(1,2,3,4,5,6,8);
 
         //Use o Consumer com expressão Lambad para imprimir os pares.
         Consumer<Integer>imprimirNumerosPar = numero->{
@@ -23,14 +23,10 @@ public class ConsumerExample {
             }
         };
         // Usar o Consumer para imprimir números pares no Sistema
-        numeros.forEach(n-> {
-            if(n % 2 == 0){
-                System.out.println(n);
-            
-                }
+        numeros.stream()
+            .filter(n -> n % 2 == 0)
+            .forEach(System.out:: println);
         
-             }
-        );
     }
 
 }
