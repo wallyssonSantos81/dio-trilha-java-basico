@@ -1,5 +1,4 @@
 
-
 public class Transacao {
     public static void main(String[] args) {
 		Cliente wallisson = new Cliente();
@@ -16,5 +15,3 @@ public class Transacao {
 	}
 
 }
-
-
