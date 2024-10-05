@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "desafio-criar-conta-banco-maven"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DesafioCriarContaBancoMavenApplication<desafio-criar-conta-banco-maven>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.desafiocriarcontabancomaven.desafio_criar_conta_banco_maven.DesafioCriarContaBancoMavenApplication",
+            "projectName": "desafio-criar-conta-banco-maven",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
