@@ -1,0 +1,5 @@
+{
+    "search.exclude": {
+        "**/pom.xml": true
+    }
+}
